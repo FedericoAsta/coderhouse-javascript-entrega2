@@ -1,0 +1,50 @@
+
+
+.tituloPrincipal {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.subtituloPrincipal {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonDeAccion {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    background-color: antiquewhite;
+    color: black;
+    margin: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.botonDeAccion:hover {
+    background-color: rgba(255, 0, 0, 0.438);
+}
+
+.formulario form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label .botonDeAccion {
+    height: 27px;
+}
